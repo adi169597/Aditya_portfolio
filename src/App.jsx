@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Hero></Hero>
-      <Projects></Projects>
+      {/* <Projects></Projects> */}
       <Skills></Skills>
       <Contact></Contact>
       <Footer></Footer>

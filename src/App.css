@@ -1,7 +1,7 @@
 :root {
-  --background-color: #fff6e9;
+  --background-color: #e4946cb6;
   --btn-color: #0987f2;
-  --btn-txt-color: #fff6e9;
+  --btn-txt-color: #fffee9;
   --project-card-bg: #ffffff000;
   --text-color: #222;
   --form-text-color: #555;
@@ -10,11 +10,11 @@
 
 [data-theme='dark'] {
   --background-color: #222;
-  --btn-color: #fff6e9;
+  --btn-color: #fffee9;
   --btn-txt-color: #222;
-  --project-card-bg: #fff6e9;
-  --text-color: #fff6e9;
-  --form-text-color: #fff6e9;
+  --project-card-bg: #fffee9;
+  --text-color: #fffee9;
+  --form-text-color: #fffee9;
   --footer-text-color: #bbb;
 }
 
