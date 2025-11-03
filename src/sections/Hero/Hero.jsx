@@ -6,7 +6,8 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedInLight from "../../assets/linkedin-light.svg";
 import linkedInDark from "../../assets/linkedin-dark.svg";
-import resume from "../../assets/Sai-Potluri-SDE-2YoE.pdf";
+//import resume from "../../assets/Sai-Potluri-SDE-2YoE.pdf";
+import resume from "../../assets/Aditya.pdf";
 import dplite from "../../assets/dp-lite.png";
 import dpdark from "../../assets/dp-dark.png";
 import { useTheme } from "../../common/ThemeContext";
@@ -24,7 +25,7 @@ function Hero() {
         <img
           className={styles.hero}
           src={heroImg}
-          alt="Profile picture of Sai Potluri"
+          alt="Profile picture of Aditya Yenuganti"
         />
         <img
           src={themeIcon}
@@ -38,16 +39,16 @@ function Hero() {
       {/* Info Section Starts */}
       <div className={styles.info}>
         <h1>
-          Sai
+          Aditya
           <br />
-          Potluri
+          Yenuganti
         </h1>
         <h2>Fullstack Developer</h2>
         <span>
-          <a href="https://www.linkedin.com/in/spotluri" target="_blank">
+          <a href="https://www.linkedin.com/in/ayenuganti09/" target="_blank">
             <img src={linkedInIcon} alt="LinkedIn Icon" />
           </a>
-          <a href="https://github.com/saicherishpotluri" target="_blank">
+          <a href="https://github.com/adi169597" target="_blank">
             <img src={githubIcon} alt="GitHub Icon" />
           </a>
         </span>
